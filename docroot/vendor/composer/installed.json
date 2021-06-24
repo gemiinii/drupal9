@@ -1282,7 +1282,8 @@
         "keywords": [
             "reflection",
             "static"
-        ]
+        ],
+        "abandoned": "roave/better-reflection"
     },
     {
         "name": "drupal/core",
@@ -1701,6 +1702,53 @@
             "GPL-2.0-or-later"
         ],
         "description": "Locked core dependencies; require this project INSTEAD OF drupal/core."
+    },
+    {
+        "name": "drupal/modules_collapse",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/modules_collapse.git",
+            "reference": "1.0.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/modules_collapse-1.0.1.zip",
+            "reference": "1.0.1",
+            "shasum": "fbe540042f5229cdbea6382a9d8e5798f9e2318f"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "1.0.1",
+                "datestamp": "1592379173",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Scot Hubbard",
+                "homepage": "https://www.drupal.org/u/scothubbard"
+            }
+        ],
+        "description": "Allows the package groups to be collapsed by default on the Extend admin page.",
+        "homepage": "https://www.drupal.org/project/modules_collapse",
+        "support": {
+            "source": "https://www.drupal.org/project/modules_collapse",
+            "issues": "https://www.drupal.org/project/issues/modules_collapse"
+        }
     },
     {
         "name": "drush/drush",
@@ -5373,12 +5421,12 @@
         "version_normalized": "1.8.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/webmozart/assert.git",
+            "url": "https://github.com/webmozarts/assert.git",
             "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/webmozart/assert/zipball/ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
+            "url": "https://api.github.com/repos/webmozarts/assert/zipball/ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
             "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
             "shasum": ""
         },

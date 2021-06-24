@@ -1,0 +1,16 @@
+{
+  "name": "drupal/modules_collapse",
+  "type": "drupal-module",
+  "description": "Allows the package groups to be collapsed by default on the Extend admin page.",
+  "homepage": "https://www.drupal.org/project/modules_collapse",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/modules_collapse",
+    "source": "https://www.drupal.org/project/modules_collapse"
+  },
+  "authors": [
+    {
+      "name" : "Scot Hubbard",
+      "homepage" : "https://www.drupal.org/u/scothubbard"
+    }
+  ]
+}

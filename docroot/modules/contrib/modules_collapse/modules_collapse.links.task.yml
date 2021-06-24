@@ -1,0 +1,5 @@
+modules_collapse.modules_settings_form:
+  title: 'Settings'
+  route_name: modules_collapse.modules_settings_form
+  base_route: system.modules_list
+  weight: 99

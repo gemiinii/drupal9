@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Contains modules_collapse form alter.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_form_alter().
+ */
+function modules_collapse_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  $config = \Drupal::config('modules_collapse.modulessettings');
+
+  if ($form_id === 'system_modules' && $config->get('collapse_modules_package_groups') === 'Yes') {
+    foreach (Element::children($form['modules']) as $package) {
+      $form['modules'][$package]['#open'] = FALSE;
+    }
+  }
+}
