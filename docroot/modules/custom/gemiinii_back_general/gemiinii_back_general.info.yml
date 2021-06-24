@@ -1,0 +1,5 @@
+name: Gemiinii Back General
+description: Supplies general small tweaks and hooks for backend forms, etc.
+core: 8.x
+type: module
+package: Gemiinii
