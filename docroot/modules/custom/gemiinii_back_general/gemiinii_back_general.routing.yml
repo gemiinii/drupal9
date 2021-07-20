@@ -1,1 +1,7 @@
-
+gemiinii_back_general.linkfilter:
+  path: '/gemiinii/linkfilter' 
+  defaults: 
+    _controller: '\Drupal\gemiinii_back_general\Controller\GemiiniiBackGeneralController::linkFilter' 
+    _title: 'Link Filter'
+  requirements: 
+    _permission: 'access content' 
