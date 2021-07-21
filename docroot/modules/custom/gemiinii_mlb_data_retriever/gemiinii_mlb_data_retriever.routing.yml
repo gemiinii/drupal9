@@ -1,0 +1,8 @@
+
+gemiinii_mlb_data_retriever.getUniformNumber:
+  path: '/gemiinii/uni' 
+  defaults: 
+    _controller: '\Drupal\gemiinii_mlb_data_retriever\Controller\GemiiniiMLBDataRetrieverController::getUniformNumber' 
+    _title: 'Uniform Number'
+  requirements: 
+    _permission: 'access content' 

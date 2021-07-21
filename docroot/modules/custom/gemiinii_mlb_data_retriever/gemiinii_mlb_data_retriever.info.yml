@@ -1,0 +1,7 @@
+name: Gemiinii MLB Data Retriever
+description: Provides connection to MLB data API.
+core: 8.x
+type: module
+core_version_requirement: ^8 || ^9
+
+package: Gemiinii
