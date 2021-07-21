@@ -314,6 +314,7 @@ $settings['hash_salt'] = 'i0c9_dvke4vhipA-KXpVZg3micEZJ4h4YgsW8J6BpcPXsI_r1nyCmk
  * TRUE back to a FALSE!
  */
 $settings['update_free_access'] = FALSE;
+$settings['rebuild_access'] = FALSE;
 
 /**
  * External access proxy settings:
