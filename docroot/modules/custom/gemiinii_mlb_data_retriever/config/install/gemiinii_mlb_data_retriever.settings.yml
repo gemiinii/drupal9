@@ -1,0 +1,2 @@
+mlb_endpoint: "http://lookup-service-prod.mlb.com"
+player_lookup: "json/named.player_info.bam?sport_code='mlb'&player_id="

@@ -1,0 +1,7 @@
+name: Gemiinii Howard Stern
+description: Adds spice and flavor to any Howard Stern show content.
+core: 8.x
+type: module
+core_version_requirement: ^8 || ^9
+
+package: Gemiinii

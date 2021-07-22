@@ -1,0 +1,8 @@
+
+gemiinii_howard_stern.splash:
+  path: '/gemiinii/howard/splash' 
+  defaults: 
+    _controller: '\Drupal\gemiinii_howard_stern\Controller\GemiiniiHowardSternController::splash' 
+    _title: 'Hello Howard Stern World'
+  requirements: 
+    _permission: 'access content' 
