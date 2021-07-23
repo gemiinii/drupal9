@@ -21,7 +21,8 @@
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/devel": "^4.1",
-        "drupal/modules_collapse": "^1.0"
+        "drupal/modules_collapse": "^1.0",
+        "drupal/audiofield": "1.10"
     },
     "require-dev": {
         "drush/drush": "^10.2"
