@@ -1,0 +1,33 @@
+# core: 8.x
+type: theme
+base theme: seven
+
+name: 'Seven Dark'
+description: 'A dark version of the seven admin theme'
+package: 'Themes'
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - seven_dark/global-styling
+libraries-override:
+  css:
+    base:
+      css/base/elements.css: css/base/elements.css
+    component:
+      css/components/details.css: css/components/details.css
+      css/components/content-header.css: css/components/content-header.css
+      css/components/form.css: css/components/form.css
+      css/components/tabs.css: css/components/tabs.css
+      css/components/buttons.css: css/components/buttons.css
+      css/components/panel.css: css/components/panel.css
+      public/themes/seven_dark/css/components/toolbar.theme.css: css/components/toolbar.theme.css
+      css/settings_tray.toolbar.css: css/components/toolbar.theme.css
+      css/settings_tray/settings_tray.toolbar.css: css/components/toolbar.theme.css
+      core/themes/classy/css/components/messages.css: css/components/messages.css
+      css/components/toolbar.icons.theme.css: css/components/toolbar.icons.theme.css
+
+# Information added by Drupal.org packaging script on 2020-09-30
+version: '2.0.0'
+project: 'seven_dark'
+datestamp: 1601478852

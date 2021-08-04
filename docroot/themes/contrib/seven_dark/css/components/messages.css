@@ -1,0 +1,100 @@
+/**
+ * Messages.
+ */
+.messages {
+  margin: 9px 0 10px 8px; /* LTR */
+}
+[dir="rtl"] .messages {
+  margin: 9px 8px 10px 0;
+}
+.messages pre {
+  margin: 0;
+}
+.messages h1,
+.messages .heading-a,
+.messages h2,
+.messages .heading-b,
+.messages h3,
+.messages .heading-c,
+.messages h4,
+.messages .heading-d,
+.messages h5,
+.messages .heading-e,
+.messages h6,
+.messages .heading-f {
+  margin-top: 0;
+}
+
+
+/**
+ * @file
+ * Styles for system messages.
+ */
+
+.messages {
+  padding: 15px 20px 15px 35px; /* LTR */
+  word-wrap: break-word;
+  border: 1px solid;
+  border-width: 1px 1px 1px 0;  /* LTR */
+  border-radius: 2px;
+  background: no-repeat 10px 17px;  /* LTR */
+  overflow-wrap: break-word;
+}
+[dir="rtl"] .messages {
+  padding-right: 35px;
+  padding-left: 20px;
+  text-align: right;
+  border-width: 1px 0 1px 1px;
+  background-position: right 10px top 17px;
+}
+.messages + .messages {
+  margin-top: 1.538em;
+}
+.messages__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.messages__item + .messages__item {
+  margin-top: 0.769em;
+}
+/* See .color-success in Seven's colors.css */
+.messages--status {
+  color: #f3faef;
+  border-color: #c9e1bd #c9e1bd #c9e1bd transparent;  /* LTR */
+  background-color: #284b16;
+  background-image: url(../../../../misc/icons/73b355/check.svg);
+  box-shadow: -8px 0 0 #77b259; /* LTR */
+}
+[dir="rtl"] .messages--status {
+  margin-left: 0;
+  border-color: #c9e1bd transparent #c9e1bd #c9e1bd;
+  box-shadow: 8px 0 0 #77b259;
+}
+/* See .color-warning in Seven's colors.css */
+.messages--warning {
+  color: #fdf8ed;
+  border-color: #f4daa6 #f4daa6 #f4daa6 transparent;  /* LTR */
+  background-color: #5c3c00;
+  background-image: url(../../../../misc/icons/e29700/warning.svg);
+  box-shadow: -8px 0 0 #e09600; /* LTR */
+}
+[dir="rtl"] .messages--warning {
+  border-color: #f4daa6 transparent #f4daa6 #f4daa6;
+  box-shadow: 8px 0 0 #e09600;
+}
+/* See .color-error in Seven's colors.css */
+.messages--error {
+  color: #ff937e;
+  border-color: #3e0f06 #3e0f06 #3e0f06 transparent;  /* LTR */
+  background-color: #431a0f;
+  background-image: url(../../../../misc/icons/e32700/error.svg);
+  box-shadow: -8px 0 0 #3e0f06; /* LTR */
+}
+[dir="rtl"] .messages--error {
+  border-color: #3e0f06 transparent #3e0f06 #3e0f06;
+  box-shadow: 8px 0 0 #3e0f06;
+}
+.messages--error p.error {
+  color: #ff937e;
+}

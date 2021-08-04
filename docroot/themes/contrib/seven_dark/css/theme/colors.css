@@ -1,0 +1,15 @@
+/**
+ * Reusable colors.
+ */
+.color-success {
+  color: #f3faef;
+  background-color: #325e1c;
+}
+.color-warning {
+  color: #fdf8ed;
+  background-color: #734c00;
+}
+.color-error {
+  color: #fcf4f2;
+  background-color: #a51b00;
+}

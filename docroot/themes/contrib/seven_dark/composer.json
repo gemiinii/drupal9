@@ -1,0 +1,24 @@
+{
+  "name": "drupal/seven_dark",
+  "description": "A dark version of the seven admin theme",
+  "license": "GPL-3.0-or-later",
+  "type": "drupal-theme",
+  "keywords": [
+    "inverted",
+    "color",
+    "styles"
+  ],
+  "homepage": "https://www.drupal.org/project/seven_dark",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/seven_dark",
+    "source": "https://git.drupalcode.org/project/seven_dark"
+  },
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "John Brandenburg",
+      "homepage": "https://www.drupal.org/u/bburg",
+      "role": "Current maintainer"
+    }
+  ]
+}
